@@ -52,3 +52,18 @@
 * 11-lists --->> Lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the ``/boot`` directory (in this order), in long format.
 
 * 12-file_type --->> Prints the type of the file named ``iamafile``. The file ``iamafile`` will be in the ``/tmp`` directory when we will run your script.
+
+* 13-symbolic_link --->> Create a symbolic link to ``/bin/ls``, named ``__ls__``. The symbolic link should be created in the current working directory.
+	- Example
+	```sh
+	 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+	 total 144
+ 	 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+ 	 drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+	 ubuntu@ip-172-31-63-244:/tmp/sym$./13-symbolic_link
+	 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+	 total 144
+	 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+	 drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+	 lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+	```
