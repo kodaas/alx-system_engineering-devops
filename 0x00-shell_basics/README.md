@@ -53,7 +53,7 @@
 
 * 12-file_type --->> Prints the type of the file named ``iamafile``. The file ``iamafile`` will be in the ``/tmp`` directory when we will run your script.
 
-* 13-symbolic_link --->> Create a symbolic link to ``/bin/ls``, named ``__ls__``. The symbolic link should be created in the current working directory.
+* 13-symbolic_link --->> Create a symbolic link to ``/bin/ls``, named ``__ls__``. The symbolic link  is in the current working directory.
 	- Example
 	```sh
 	 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
@@ -68,6 +68,10 @@
 	 lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 	```
 
-* 14-copy_html --->> Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+* 14-copy_html --->> Copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-You can consider that all HTML files have the extension ``.html``
+	  You can consider that all HTML files have the extension ``.html``
+
+* 100-lets_move --->> Moves all files beginning with an uppercase letter to the directory ``/tmp/u``.
+
+	You can assume that the directory ``/tmp/u`` will exist when we will run your script.
