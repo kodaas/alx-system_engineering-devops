@@ -28,6 +28,7 @@
 	 betty
 	 $
 	```
+
 * 8-firstdelete --->> Delete the file betty.
 	- The file betty is in /tmp/my_first_directory
 	- Example
@@ -44,4 +45,6 @@
 	 $ file /tmp/my_first_directory
 	 /tmp/my_first_directory: cannot open /tmp/my_first_directory (No such file or directory)
 	 $
-	```   
+	```
+
+* 10-back --->> changes the working directory to the previous one.   
