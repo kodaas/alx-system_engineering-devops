@@ -42,6 +42,6 @@
 	```sh
 	 $ ./9-firstdirdeletion
 	 $ file /tmp/my_first_directory
-	 /tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
+	 /tmp/my_first_directory: cannot open /tmp/my_first_directory (No such file or directory)
 	 $
 	```   
