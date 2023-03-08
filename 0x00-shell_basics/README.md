@@ -28,3 +28,11 @@
 	 betty
 	 $
 	```
+* 8-firstdelete --->> Delete the file betty.
+	- The file betty is in /tmp/my_first_directory
+	- Example
+	```sh
+	 $ ./8-firstdelete
+	 $ ls /tmp/my_first_directory/
+	 $
+	```
