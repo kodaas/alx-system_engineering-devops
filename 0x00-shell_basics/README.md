@@ -21,9 +21,10 @@
 * 6-firstdirectory --->> Create a script that creates a directory named ``my_first_directory`` in the ``/tmp/`` directory.
 
 * 7-movethatfile --->> Move the file ``betty`` from ``/tmp/`` to ``/tmp/my_first_directory``.
-	- Example ```sh
-		    $ ./7-movethatfile
-		    $ ls /tmp/my_first_directory/
-		    betty
-		    $
-		  ```
+	- Example 
+	```sh
+	 $ ./7-movethatfile
+	 $ ls /tmp/my_first_directory/
+	 betty
+	 $
+	```
