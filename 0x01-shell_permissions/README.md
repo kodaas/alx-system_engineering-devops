@@ -26,3 +26,5 @@
 	 julien@ubuntu:/tmp/h$ 
 	```
 
+* 3-new_owner --->> Changes the owner of the file ``hello`` to the user ``betty``.
+
